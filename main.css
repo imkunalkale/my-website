@@ -21,18 +21,59 @@ body {
     justify-content: space-between;
 }
 
-#navbar .left{
+#navbar .left {
     margin-left: 2rem;
     color: #fff;
 }
 
-#navbar .right a{
+#navbar .right a {
     text-decoration: none;
     color: #fff;
     margin-right: 2vw;
 }
 
-#navbar .right a:hover{
+#navbar .right a:hover {
     color: #969696;
     text-decoration: underline;
+}
+
+#main {
+    width: 100vw;
+    height: 90vh;
+    background-color: #fff;
+
+}
+
+
+
+footer {
+    width: 100vw;
+    height: 10rem;
+    padding: 2rem;
+    background-color: #000;
+    color: #fff;
+}
+
+
+.footer-text h1{
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+
+footer .links{
+    margin-top: 1.5vw;
+}
+
+footer .links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8vw;
+    padding: 0.5vw;
+
+}
+
+footer .links a:hover{
+    color: #969696;
+
 }
