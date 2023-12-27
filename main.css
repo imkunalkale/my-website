@@ -136,27 +136,72 @@ body {
 
 .hr{
     margin: 0 auto;
-    width: 80vw;
-    height: 0.3vw;
+    width: 90vw;
+    height: 0.1vw;
     background-color: #048ff9;
 
 }
 
 
 #skills{
+    margin: 5vw 5vw;
+    width: 90vw;
+    height: 30vw;
+    background-color: #ede9e9;
+}
+
+#skills-title{
+    margin: 4vw 45vw;
+    color: #bc01bc;
+    font-size: 3.5vw;
+}
+
+.skills-text{
+
+    margin: 5vw 10vw;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+ 
+}
+
+.skills-text h6{
+    width: 5vw;
+    font-size: 1vw;
+}
+
+.skills-text i{
+    color: #048ff9;
+    font-size: 1.5vw;
+}
+
+.skills-text p{
+color: #000;
+}
+
+.skills-box-one{
+    width: 90vw;
+    height: 10vw;
     display: flex;
     text-align: center;
-    justify-content: center;
-    gap: 2vw;
-    margin: 7vw 5vw;
-    width: 90vw;
-    height: 20vw;
-    background-color: #dd96f4;
+    justify-content: center; 
+    gap: 10vw;
 }
 
 
+
+.skills-box-two{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    gap: 10vw;
+    margin-bottom: 10vw;
+}
+
+
+
 #skills .html{
-    margin-right: 3vw;
+    margin-top: 3vw;
     width: 7vw;
     height: 7vw;
     background-image: url(./static/imgs/pngs/html.png);
@@ -166,7 +211,7 @@ body {
 
 
 #skills .css{
-    margin-right: 3vw;
+    margin-top: 3vw;
     width: 7.5vw;
     height: 7.5vw;
     background-image: url(./static/imgs/pngs/css.png);
@@ -176,7 +221,7 @@ body {
 
 
 #skills .javascript{
-    margin-right: 3vw;
+    margin-top: 3vw;
     width: 7.5vw;
     height: 7.5vw;
     background-image: url(./static/imgs/pngs/javascript.png);
@@ -185,17 +230,19 @@ body {
 }
 
 #skills .vue{
-    margin-right: 3vw;
-    width: 8.5vw;
-    height: 8.5vw;
+    margin-top: 3vw;
+    margin-left: -1vw;
+    width: 9vw;
+    height: 7.5vw;
     background-image: url(./static/imgs/pngs/vueJS.png);
     background-position: center;
     background-size: cover;
 }
 
 #skills .node{
-    margin-right: 3vw;
-    width: 7.5vw;
+    margin-top: 6vw;
+    margin-left: -2vw;
+    width: 8.5vw;
     height: 7.5vw;
     background-image: url(./static/imgs/pngs/nodeJS.png);
     background-position: center;
@@ -203,7 +250,7 @@ body {
 }
 
 #skills .github{
-    margin-right: 3vw;
+    margin-top: 6vw;
     width: 7.5vw;
     height: 7.5vw;
     background-image: url(./static/imgs/pngs/github.png);
@@ -212,7 +259,7 @@ body {
 }
 
 #skills .boot{
-    margin-right: 0vw;
+    margin-top: 6vw;
     width: 7.5vw;
     height: 7.5vw;
     background-image: url(./static/imgs/pngs/boot.png);
@@ -224,4 +271,12 @@ body {
     margin-top: 8vw;
     font-size: 1.5vw;
     font-weight: 600;
+}
+
+
+#contect{
+    margin: 5vw auto;
+    width: 90vw;
+    height: 30vw;
+    background-color: #000;
 }
