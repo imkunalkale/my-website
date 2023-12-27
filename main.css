@@ -55,18 +55,17 @@ body {
     justify-content: center;
     padding: 2vw 5vw;
     width: 100vw;
-    height: 80vw;
 }
 
 #main-text {
-    margin-left: -10vw;
+    margin-left: -2vw;
     width: 50vw;
     height: 40vw;
     color: #fff;
 }
 
 .text {
-    margin-top: 13vw;
+    margin-top: 7.5vw;
 }
 
 .text h1 {
@@ -82,20 +81,20 @@ body {
 }
 
 .text p {
-    margin-left: 20vw;
-    width: 25vw;
+    margin-right: 8vw;
+    width: 45vw;
     color: #000;
 }
 
 .con-btn {
    
     margin: 1.5vw 22vw;
-    width: 13vw;
+    width: 15vw;
     height: 4vw;
     background: linear-gradient(#fff, #fff) padding-box,
         linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
     border: 2px solid transparent;
-    padding: 0.9vw 2vw;
+    padding: 0.8vw 3vw;
     font-size: 1.5vw;
     font-weight: 800; 
     font-family: inherit;
@@ -125,7 +124,7 @@ body {
 }
 
 #main-pic {
-    margin-top: 6vw;
+    margin-top: 4vw;
     width: 30vw;
     height: 30vw;
     border-radius: 50%;
@@ -135,6 +134,94 @@ body {
 }
 
 
+.hr{
+    margin: 0 auto;
+    width: 80vw;
+    height: 0.3vw;
+    background-color: #048ff9;
+
+}
 
 
+#skills{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 2vw;
+    margin: 7vw 5vw;
+    width: 90vw;
+    height: 20vw;
+    background-color: #dd96f4;
+}
 
+
+#skills .html{
+    margin-right: 3vw;
+    width: 7vw;
+    height: 7vw;
+    background-image: url(./static/imgs/pngs/html.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#skills .css{
+    margin-right: 3vw;
+    width: 7.5vw;
+    height: 7.5vw;
+    background-image: url(./static/imgs/pngs/css.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#skills .javascript{
+    margin-right: 3vw;
+    width: 7.5vw;
+    height: 7.5vw;
+    background-image: url(./static/imgs/pngs/javascript.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#skills .vue{
+    margin-right: 3vw;
+    width: 8.5vw;
+    height: 8.5vw;
+    background-image: url(./static/imgs/pngs/vueJS.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#skills .node{
+    margin-right: 3vw;
+    width: 7.5vw;
+    height: 7.5vw;
+    background-image: url(./static/imgs/pngs/nodeJS.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#skills .github{
+    margin-right: 3vw;
+    width: 7.5vw;
+    height: 7.5vw;
+    background-image: url(./static/imgs/pngs/github.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#skills .boot{
+    margin-right: 0vw;
+    width: 7.5vw;
+    height: 7.5vw;
+    background-image: url(./static/imgs/pngs/boot.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#skills h5{
+    margin-top: 8vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
