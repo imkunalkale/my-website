@@ -12,7 +12,7 @@ body {
 }
 
 
-#main{
+#main {
     width: 100%;
     height: auto;
 }
@@ -58,57 +58,59 @@ body {
     height: 80vw;
 }
 
-#main-text{
-    margin-left: -10vw;
+#main-text {
+    margin-left:  -10vw;
     width: 50vw;
     height: 40vw;
     color: #fff;
 }
 
-.text{
+.text {
     margin-top: 13vw;
 }
 
-.text h1{
-    color: #000;
-margin-right: 8vw;
+.text h1 {
+    color: #bc01bc;
+    margin-right: 8vw;
     font-size: 3.6vw;
 }
 
-.text h3{
+.text h3 {
     margin-left: 10vw;
     font-size: 2.7vw;
     color: blueviolet;
 }
 
-
-.con-btn{
-    margin: 1.5vw 0 0 10vw;
-width: 13vw;
-height: 4vw;
-font-size: 1.5vw;
-font-weight: 900;
-background-color: blueviolet;
-color: white;
-border-radius: 20px;
-border-color: blueviolet;
+.text p {
+    margin-left: 20vw;
+    width: 25vw;
+    color: #000;
 }
 
-#main-pic{
-    margin-left: 1vw;
-    width: 35vw;
-    height: 40vw;
-    /* background-color: blue;   */
+.con-btn {
+    margin: 1.5vw 0 0 10vw;
+    width: 13vw;
+    height: 4vw;
+    font-size: 1.5vw;
+    font-weight: 800;
+    background-color: #fff;
+    color: #bc01bc;
+    border-radius: 20px;
+    border-color: blueviolet;
+}
+
+#main-pic {
+    margin-top: 6vw;
+    /* margin-left: 8vw; */
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
     background-image: url(./static/imgs/kunal.jpg);
     background-position: center;
     background-size: cover;
-    /* border: 2px solid #000;  */
 }
 
-#main-pic img{
-    width: 35vw;
-    height: 40vw;
-}
+
 
 /* footer {
     width: 100vw;
