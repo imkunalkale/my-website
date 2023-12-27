@@ -99,7 +99,7 @@ border-color: blueviolet;
     width: 35vw;
     height: 40vw;
     /* background-color: blue;   */
-    /* background-image: url(/assets/imgs/kunal.jpg); */
+    background-image: url(./static/imgs/kunal.jpg);
     background-position: center;
     background-size: cover;
     /* border: 2px solid #000;  */
