@@ -12,7 +12,13 @@ body {
 }
 
 
+#main{
+    width: 100%;
+    height: auto;
+}
+
 #navbar {
+    padding: 0 5vw;
     width: 100vw;
     height: 4rem;
     background-color: blueviolet;
@@ -39,14 +45,72 @@ body {
 
 #main {
     width: 100vw;
-    height: 90vh;
     background-color: #fff;
 
 }
 
+#home {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 2vw 5vw;
+    width: 100vw;
+    height: 80vw;
+    /* border: 2px solid red; */
+}
+
+#main-text{
+    margin-right: 1vw;
+    width: 50vw;
+    height: 40vw;
+    color: #fff;
+    /* background-color: red;
+    border: 2px solid #000; */
+}
+
+.text{
+    margin-top: 13vw;
+}
+
+.text h1{
+    color: #000;
+margin-right: 8vw;
+    font-size: 3.6vw;
+}
+
+.text h3{
+    margin-left: 10vw;
+    font-size: 2.7vw;
+    color: blueviolet;
+}
 
 
-footer {
+.con-btn{
+    margin: 1.5vw 0 0 10vw;
+width: 13vw;
+height: 4vw;
+font-size: 1.5vw;
+font-weight: 900;
+background-color: blueviolet;
+color: white;
+border-radius: 20px;
+border-color: blueviolet;
+}
+
+#main-pic{
+    margin-left: 1vw;
+    width: 30vw;
+    height: 40vw;
+    /* background-color: blue;   */
+    background-image: url(/assets/imgs/kunal-pic.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid #000; 
+}
+
+
+
+/* footer {
     width: 100vw;
     height: 10rem;
     padding: 2rem;
@@ -55,13 +119,13 @@ footer {
 }
 
 
-.footer-text h1{
+.footer-text h1 {
     font-size: 2vw;
     font-weight: 700;
 }
 
 
-footer .links{
+footer .links {
     margin-top: 1.5vw;
 }
 
@@ -73,7 +137,7 @@ footer .links a {
 
 }
 
-footer .links a:hover{
+footer .links a:hover {
     color: #969696;
 
-}
+} */
