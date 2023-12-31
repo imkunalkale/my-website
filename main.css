@@ -24,7 +24,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: blueviolet;
+    color: #fff;
+    /* background-color: blueviolet; */
+    background-color: #451952;
+}
+
+.header .logo h2{
+    font-size: 3vw;
 }
 
 .navbar-list {
@@ -47,7 +53,7 @@ body {
 
 .navbar-link:hover,
 .navbar-link:active {
-    color: #7e237e;
+    color: #662549;
 }
 
 .mobile-navbar-btn {
@@ -66,73 +72,6 @@ body {
 .mobile-nav-icon[name="close-outline"]{
     display: none;
 } 
-
-@media (max-width:980px) {
-    .mobile-navbar-btn {
-        display: block;
-        z-index: 999;
-    }
-
-    .header {
-        position: relative;
-    }
-
-
-    .navbar {
-        /* display: none; */
-        width: 100%;
-        height: 100vh;
-        background-color: #483838;
-        position: absolute;
-        top: 0;
-        left: 0;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-
-        transform: translateX(100%);
-        transition: all 0.5s linear;
-
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
-
-    }
-
-
-    .navbar-list {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .active .navbar {
-        transform: translateX(0);
-        opacity: 1;
-        visibility: visible;
-        pointer-events: auto;
-    }
-
-    .active .mobile-navbar-btn .mobile-nav-icon [name="grid-outline"] {
-        display: block;
-    }
-
-    .active .mobile-navbar-btn .mobile-nav-icon [name="close-outline"] {
-        display: none;
-    }
-
-}
-
-@media (max-width:560px) {
-    .header{
-        padding: 0 2.4rem;
-    }
-
-    .header .logo{
-        width: 40%;
-    }
-}
 
 
 #main {
@@ -156,23 +95,22 @@ body {
     color: #fff;
 }
 
-.text {
+/* .text {
     margin-top: 7.5vw;
-}
+} */
 
-.text h1 {
+#main-text h1 {
     color: #bc01bc;
     margin-right: 8vw;
     font-size: 3.6vw;
 }
-
-.text h3 {
+#main-text h3 {
     margin-left: 10vw;
     font-size: 2.7vw;
     color: blueviolet;
 }
 
-.text p {
+#main-text p {
     margin-right: 8vw;
     width: 45vw;
     color: #000;
@@ -180,15 +118,15 @@ body {
 
 .con-btn {
 
-    margin: 1.5vw 22vw;
+    margin: 1.5vw auto;
     width: 15vw;
     height: 4vw;
     background: linear-gradient(#fff, #fff) padding-box,
         linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
-    border: 2px solid transparent;
-    padding: 1vw 3.5vw;
-    font-size: 1.3vw;
-    font-weight: 700;
+    border: 1.5px solid transparent;
+    padding: 0.8vw 3.7vw;
+    font-size: 1.2vw;
+    font-weight: 600;
     font-family: inherit;
     color: #bc01bc;
     display: flex;
@@ -214,8 +152,16 @@ body {
     }
 }
 
+.main-p p{
+
+    width: 45vw;
+    height: 30vw;
+    margin-bottom: 4vw;
+}
+
+
 #main-pic {
-    margin-top: 4vw;
+    margin-top: 9vw;
     width: 30vw;
     height: 30vw;
     border-radius: 50%;
