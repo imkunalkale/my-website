@@ -7,3 +7,13 @@ git reset HEAD~
 3. force push
 git push  origin main --force
 
+
+1. List Branch
+git branch
+
+2. Switch Branch
+git checkout <branch name>
+
+3. Create Branch 
+git checkout -b <branch name>
+
