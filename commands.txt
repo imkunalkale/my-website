@@ -7,3 +7,5 @@ git reset HEAD~
 3. force push
 git push  origin main --force
 
+4. Delete Branch
+git branch -D <branch Name>
