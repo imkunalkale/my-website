@@ -1,0 +1,9 @@
+1. View Commits
+git log
+
+2. undo commit:
+git reset HEAD~  
+
+3. force push
+git push  origin main --force
+
