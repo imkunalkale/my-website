@@ -25,11 +25,10 @@ body {
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    /* background-color: blueviolet; */
     background-color: #451952;
 }
 
-.header .logo h2{
+.header .logo h2 {
     font-size: 3vw;
 }
 
@@ -69,9 +68,9 @@ body {
     height: 2rem;
 }
 
-.mobile-nav-icon[name="close-outline"]{
+.mobile-nav-icon[name="close-outline"] {
     display: none;
-} 
+}
 
 
 #main {
@@ -89,6 +88,7 @@ body {
 }
 
 #main-text {
+    margin-top: 5rem;
     margin-left: -2vw;
     width: 50vw;
     height: 40vw;
@@ -104,6 +104,7 @@ body {
     margin-right: 8vw;
     font-size: 3.6vw;
 }
+
 #main-text h3 {
     margin-left: 10vw;
     font-size: 2.7vw;
@@ -152,7 +153,7 @@ body {
     }
 }
 
-.main-p p{
+.main-p p {
 
     width: 45vw;
     height: 30vw;
@@ -161,7 +162,7 @@ body {
 
 
 #main-pic {
-    margin-top: 9vw;
+    margin-top: 4rem;
     width: 30vw;
     height: 30vw;
     border-radius: 50%;
@@ -189,142 +190,72 @@ body {
 } */
 
 
+/* ///////////////////////////////////////////  */
+/* skills  */
 
-#skills {
-    margin: 5vw 5vw;
-    width: 90vw;
-    height: 30vw;
-    background-color: #ede9e9;
+
+#skills-boxs {
+    margin: 0 auto;
+    width: 80%;
+    height: 30%;
+    padding: 1rem;
+    font-size: 3rem;
+    /* background-color: #f7f4f0; */
 }
 
-#skills-title {
-    margin: 4vw 45vw;
-    color: #bc01bc;
-    font-size: 3.5vw;
-}
-
-.skills-text {
-    margin: 2vw 5vw;
-    width: 80vw;
-
-
-}
-
-.skills-text h1 {
-
-    margin: 2vw 32vw;
-    color: #bc01bc;
-    font-size: 2.5vw;
-}
-
-
-.skills-text p {
-    color: #000;
-    font-size: 1.1vw;
-    text-align: left;
-}
-
-.skills-box-one {
-    width: 90vw;
-    height: 10vw;
+#skills-boxs .box1,
+.box2 {
     display: flex;
-    text-align: center;
     justify-content: center;
-    gap: 10vw;
-}
-
-
-
-.skills-box-two {
-    display: flex;
+    align-items: center;
     text-align: center;
-    justify-content: center;
-    gap: 10vw;
-    margin-bottom: 10vw;
+    gap: 8rem;
 }
 
-
-
-#skills .html {
-    margin-top: 3vw;
-    width: 7vw;
-    height: 7vw;
-    background-image: url(./static/imgs/pngs/html.png);
-    background-position: center;
-    background-size: cover;
-}
-
-
-#skills .css {
-    margin-top: 3vw;
-    width: 7.5vw;
-    height: 7.5vw;
-    background-image: url(./static/imgs/pngs/css.png);
-    background-position: center;
-    background-size: cover;
-}
-
-
-#skills .javascript {
-    margin-top: 3vw;
-    width: 7.5vw;
-    height: 7.5vw;
-    background-image: url(./static/imgs/pngs/javascript.png);
-    background-position: center;
-    background-size: cover;
-}
-
-#skills .vue {
-    margin-top: 3vw;
-    margin-left: -1vw;
-    width: 9vw;
-    height: 7.5vw;
-    background-image: url(./static/imgs/pngs/vueJS.png);
-    background-position: center;
-    background-size: cover;
-}
-
-#skills .node {
-    margin-top: 6vw;
-    margin-left: -2vw;
-    width: 8.5vw;
-    height: 7.5vw;
-    background-image: url(./static/imgs/pngs/nodeJS.png);
-    background-position: center;
-    background-size: cover;
-}
-
-#skills .github {
-    margin-top: 6vw;
-    width: 7.5vw;
-    height: 7.5vw;
-    background-image: url(./static/imgs/pngs/github.png);
-    background-position: center;
-    background-size: cover;
-}
-
-#skills .boot {
-    margin-top: 6vw;
-    width: 7.5vw;
-    height: 7.5vw;
-    background-image: url(./static/imgs/pngs/boot.png);
-    background-position: center;
-    background-size: cover;
-}
-
-#skills h5 {
-    margin-top: 8vw;
-    font-size: 1.5vw;
+#skills-boxs .box h5 {
+    margin: 1.5rem auto;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 
-#contect {
-    margin: 10vw auto;
-    width: 90vw;
-    height: 30vw;
+#skills-boxs .box {
+    margin: 2rem auto;
+    display: flex;
+    flex-flow: row wrap;
+    width: 6rem;
+    height: 6rem;
+    align-items: center;
+    text-align: center;
 }
 
-#contect .con-btn {
-    margin: 0 2vw;
+
+#skills-boxs .box img {
+    width: 6rem;
+    height: 6rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.skills-texts {
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.skills-texts h1 {
+    width: 25%;
+    margin: 1rem auto;
+    padding: 0;
+    text-align: center; 
+}
+
+.skills-texts p {
+    font-weight: 400;
+    text-align: left;
+    margin: 2rem 10%;
+    padding: 1rem;
+    background-color: #af72c2;
+    color: #fff;
 }
