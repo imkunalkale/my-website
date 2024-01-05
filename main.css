@@ -85,6 +85,8 @@ body {
     justify-content: center;
     padding: 2vw 5vw;
     width: 100vw;
+    /* background-color: #40c9ff; */
+    /* margin-bottom: -15rem; */
 }
 
 #main-text {
@@ -111,11 +113,17 @@ body {
     color: blueviolet;
 }
 
+/* #main-text .main-pera{
+    /* border: 1px solid red; 
+}  */
+
 #main-text p {
     margin-right: 8vw;
     width: 45vw;
     color: #000;
 }
+
+
 
 .con-btn {
 
@@ -153,12 +161,6 @@ body {
     }
 }
 
-.main-p p {
-
-    width: 45vw;
-    height: 30vw;
-    margin-bottom: 4vw;
-}
 
 
 #main-pic {
@@ -196,20 +198,38 @@ body {
 
 #skills-boxs {
     margin: 0 auto;
-    width: 80%;
-    height: 30%;
-    padding: 1rem;
+    width: 80vw;
+    height: 30vw;
     font-size: 3rem;
-    /* background-color: #f7f4f0; */
+    /* background-color: #f4b057; */
+}
+
+
+#skills-boxs .skills-heading {
+    width: 10rem;
+    align-items: center;
+    text-align: center;
+    /* padding: 1rem; */
+    margin: 0 auto;
+
+}
+
+#skills-boxs .skills-heading h1 {
+    margin: 0 auto;
+    font-size: 2.5rem;
+    font-weight: 700;
+    
 }
 
 #skills-boxs .box1,
 .box2 {
+    width: 70vw;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 8rem;
+    background-color: #f4b057;
 }
 
 #skills-boxs .box h5 {
@@ -221,8 +241,6 @@ body {
 
 #skills-boxs .box {
     margin: 2rem auto;
-    display: flex;
-    flex-flow: row wrap;
     width: 6rem;
     height: 6rem;
     align-items: center;
@@ -238,17 +256,17 @@ body {
 }
 
 .skills-texts {
-    margin: 1rem auto;
-    padding: 1rem;
+    margin: 0rem auto;
     width: 100%;
     font-size: 1rem;
 }
 
 .skills-texts h1 {
-    width: 25%;
+    width: 100%;
     margin: 1rem auto;
-    padding: 0;
-    text-align: center; 
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 .skills-texts p {
@@ -257,5 +275,5 @@ body {
     margin: 2rem 10%;
     padding: 1rem;
     background-color: #af72c2;
-    color: #fff;
+    color: #000;
 }
