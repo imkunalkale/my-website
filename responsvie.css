@@ -107,13 +107,13 @@
         margin-bottom: 2rem;
     }
 
- 
-    
-    
-    #main-text .main-pera p{
+
+
+
+    #main-text .main-pera p {
         font-size: 0.8rem;
-            
-        }
+
+    }
 
     .skills-heading {
         margin: 0 auto;
@@ -181,28 +181,28 @@
 
 
     #main-text .home-headings {
-    
+
         width: 100%;
         margin-left: -4rem;
     }
 
-    #main-text .home-headings h1{
+    #main-text .home-headings h1 {
         font-size: 2.5rem;
     }
 
-    #main-text .home-headings h3{
+    #main-text .home-headings h3 {
         font-size: 2rem;
     }
 
-.con-btn{
-    align-items: center;
-    padding: 0.5rem;
-    border: 2.5px solid transparent;
-    margin: 0rem auto;
-    width: 10rem;
-    height: 3rem;
-    font-size: 1rem;
-}
+    .con-btn {
+        align-items: center;
+        padding: 0.5rem;
+        border: 2.5px solid transparent;
+        margin: 0rem auto;
+        width: 10rem;
+        height: 3rem;
+        font-size: 1rem;
+    }
 
     #main-text .main-pera .p {
         width: 100%;
@@ -219,18 +219,18 @@
         border-radius: 0.1px;
     }
 
-   .skills-heading{
-width: 100%;
-height: 4rem;
-   }
+    .skills-heading {
+        width: 100%;
+        height: 4rem;
+    }
 
-   .skills-heading h1{
-    width: 100%;
-    margin: 1rem auto;
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 600;
-   }
+    .skills-heading h1 {
+        width: 100%;
+        margin: 1rem auto;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
 
     #skills-boxs {
         display: flex;
@@ -248,12 +248,12 @@ height: 4rem;
 
     }
 
-    #skills-boxs  .box{
+    #skills-boxs .box {
         width: 6rem;
         height: 6rem;
-       /* border: 1px solid red; */
+        /* border: 1px solid red; */
     }
-    
+
 
     #skills-boxs .box img {
         width: 5rem;
@@ -263,6 +263,46 @@ height: 4rem;
 
     .skills-texts {
         margin-top: 1rem;
+    }
+
+}
+
+
+@media (max-width:370px) {
+
+    #main-pic{
+        margin-top: 20rem;
+    }
+
+    #main-text .main-pera .p {
+        height: 15rem;
+        padding: 1rem;
+        text-align: left;
+    }
+
+.home-headings{
+    margin-right: -1vw;
+    padding: 1rem;
+    width: 100vw;
+    }
+
+    .home-headings h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+        width: 100vw;
+     
+    }
+
+    .home-headings h3{
+        font-size: 2rem;
+        font-weight: 600;
+        width: 100vw;
+     
+    }
+
+    .con-btn{
+        margin-top: 1rem;
+        margin-left: 11rem;
     }
 
 }
