@@ -270,7 +270,7 @@
 
 @media (max-width:370px) {
 
-    #main-pic{
+    #main-pic {
         margin-top: 20rem;
     }
 
@@ -280,29 +280,70 @@
         text-align: left;
     }
 
-.home-headings{
-    margin-right: -1vw;
-    padding: 1rem;
-    width: 100vw;
+    .home-headings {
+        margin-right: -1vw;
+        padding: 1rem;
+        width: 100vw;
     }
 
-    .home-headings h1{
+    .home-headings h1 {
         font-size: 2.5rem;
         font-weight: 700;
         width: 100vw;
-     
+
     }
 
-    .home-headings h3{
+    .home-headings h3 {
         font-size: 2rem;
         font-weight: 600;
         width: 100vw;
-     
+
     }
 
-    .con-btn{
+    .con-btn {
         margin-top: 1rem;
         margin-left: 11rem;
     }
+
+}
+
+@media (max-width:390px) {
+
+    #main-pic {
+        margin-top: 16rem;
+    }
+
+    #main-text .main-pera .p {
+        height: 14rem;
+        padding: 1rem;
+        text-align: left;
+
+    }
+
+    .home-headings {
+        width: 100%;
+        margin-right: 10rem;
+    }
+
+
+    .home-headings h1 {
+        margin-left: 1rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        width: 100vw;
+    }
+
+    .home-headings h3 {
+        font-size: 2rem;
+        font-weight: 500;
+        width: 100vw;
+
+    }
+
+    .con-btn {
+        margin-top: 1rem;
+        margin-left: 14rem;
+    }
+
 
 }
