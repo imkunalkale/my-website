@@ -143,20 +143,29 @@ align-items: center;
 
 @media (max-width:590px){
 
+    .header .logo h3 {
+        font-size: 8vw;
+        width: 40%;
+    }
+
 
     #main-section {
-        gap: 45vw;
+        gap: 69vw;
         flex-direction: column;
     }
 
 
+    .left h1{
+        font-size: 8vw;
+    }
+
     .left .main-pera {
-        height: 55vw;
+        height: 72vw;
         /* border: 1px solid red; */
     }
 
     .left .main-pera p {
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 
 
@@ -168,19 +177,19 @@ align-items: center;
 
     .right{
         /* border: 1px solid red; */
-        width: 45vw;
-        height: 55vw;
+        width: 60vw;
+        height: 70vw;
 
     }
 
     .right .main-pic{
-        width: 45vw;
-        height: 55vw;
+        width: 60vw;
+        height: 70vw;
     }
 
     .right .main-pic img{
-        width: 45vw;
-        height: 55vw;
+        width: 60vw;
+        height: 70vw;
     }
 
 }
