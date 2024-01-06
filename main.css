@@ -16,6 +16,7 @@ body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
+    background-color: #032030;
 }
 
 .header {
@@ -25,11 +26,14 @@ body {
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    background-color: #451952;
+    background: #022B42;
+    box-shadow: inset 5px 5px 10px #003554,
+        inset -5px -5px 10px #003554;
 }
 
-.header .logo h2 {
-    font-size: 3vw;
+.header .logo h3 {
+    font-size: 1.5vw;
+    cursor: pointer;
 }
 
 .navbar-list {
@@ -37,7 +41,18 @@ body {
     display: flex;
     gap: 3.5vw;
     list-style: none;
+    align-items: center;
 
+}
+
+.cv-btn{
+width: 8vw;
+height: 2vw;
+align-items: center;
+text-align: center;
+font-weight: 500;
+font-size: 1vw;
+cursor: pointer;
 }
 
 .navbar-link:link,
@@ -52,7 +67,7 @@ body {
 
 .navbar-link:hover,
 .navbar-link:active {
-    color: #662549;
+    color: #7b7979;
 }
 
 .mobile-navbar-btn {
@@ -79,117 +94,89 @@ body {
 }
 
 
-#home {
+#main-section {
+    margin: 3vw auto;
+    width: 95vw;
+    padding: 5vw;
     display: flex;
-    text-align: center;
-    justify-content: center;
-    padding: 2vw 5vw;
-    width: 100vw;
-    /* background-color: #40c9ff; */
-    /* margin-bottom: -15rem; */
-}
-
-#main-text {
-    margin-top: 5rem;
-    margin-left: -2vw;
-    width: 50vw;
-    height: 40vw;
+    gap: 5vw;
     color: #fff;
-}
-
-/* .text {
-    margin-top: 7.5vw;
-} */
-
-#main-text h1 {
-    color: #bc01bc;
-    margin-right: 8vw;
-    font-size: 3.6vw;
-}
-
-#main-text h3 {
-    margin-left: 10vw;
-    font-size: 2.7vw;
-    color: blueviolet;
-}
-
-/* #main-text .main-pera{
-    /* border: 1px solid red; 
-}  */
-
-#main-text p {
-    margin-right: 8vw;
-    width: 45vw;
-    color: #000;
-}
-
-
-
-.con-btn {
-
-    margin: 1.5vw auto;
-    width: 15vw;
-    height: 4vw;
-    background: linear-gradient(#fff, #fff) padding-box,
-        linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
-    border: 1.5px solid transparent;
-    padding: 0.8vw 3.7vw;
-    font-size: 1.2vw;
-    font-weight: 600;
-    font-family: inherit;
-    color: #bc01bc;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    border-radius: 16px;
-    background-size: 200% 100%;
-    animation: gradient 5s ease infinite;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 9px;
+    /* background: #341c4d; */
+    background: #022B42;
+    box-shadow: inset 5px 5px 10px #003554,
+        inset -5px -5px 10px #003554;
 
 }
 
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-
-
-#main-pic {
-    margin-top: 4rem;
-    width: 30vw;
+.left {
+    align-items: center;
+    width: 50vw;
     height: 30vw;
-    border-radius: 50%;
-    background-image: url(./static/imgs/kunal.jpg);
+    padding: 0.5rem;
+}
+
+.left h1 {
+    font-size: 3vw;
+    font-weight: 800;
+    color: #f4b057;
+}
+
+.left .main-pera {
+    padding: 5vw 0;
+    width: 100%;
+    height: 20vw;
+}
+
+.left .main-pera p {
+    font-size: 1.4vw;
+    font-weight: 600;
+}
+
+.loction {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    width: 15vw;
+    height: 5vw;
+}
+
+.loction i {
+    color: #3cff3c;
+    font-size: 2vw;
+}
+
+
+
+
+/* ///////////////////////////////// */
+
+.right {
+    width: 25vw;
+    height: 30vw;
+
+}
+
+.right .main-pic {
+    margin: 0 auto;
+    width: 25vw;
+    height: 30vw;
+    text-align: center;
+
+}
+
+.right .main-pic img {
+    width: 25vw;
+    height: 30vw;
     background-position: center;
     background-size: cover;
+    border-radius: 9px;
+    background: #341c4d;
+    box-shadow: inset 5px 5px 10px #341c4d,
+        inset -5px -5px 10px #341c4d;
 }
-
-
-.hr {
-    margin: 0 auto;
-    width: 90vw;
-    height: 0.1vw;
-    background-color: #048ff9;
-
-}
-
-/* .hr-skills {
-    margin: 5vw auto;
-    width: 90vw;
-    height: 0.2vw;
-    border-radius: 50%;
-    background-color: #048ff9;
-
-} */
 
 
 /* ///////////////////////////////////////////  */
@@ -197,11 +184,15 @@ body {
 
 
 #skills-boxs {
-    margin: 0 auto;
-    width: 80vw;
-    height: 30vw;
-    font-size: 3rem;
+    margin: 1vw auto;
+    padding: 3vw 0;
+    width: 95vw;
+    /* height: 30vw; */
     /* background-color: #f4b057; */
+    border-radius: 9px;
+    background: #003554;
+    box-shadow: inset 5px 5px 10px #022B42,
+        inset -5px -5px 10px #022B42;
 }
 
 
@@ -209,42 +200,38 @@ body {
     width: 10rem;
     align-items: center;
     text-align: center;
-    /* padding: 1rem; */
     margin: 0 auto;
 
 }
 
 #skills-boxs .skills-heading h1 {
     margin: 0 auto;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 700;
-    
+    color: #fff;
 }
 
 #skills-boxs .box1,
 .box2 {
-    width: 70vw;
+    width: 95vw;
+    margin: 0 auto;
+    padding: 1vw;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 8rem;
-    background-color: #f4b057;
-}
+    gap: 2rem;
+    /* border: 1px solid #000; */
 
-#skills-boxs .box h5 {
-    margin: 1.5rem auto;
-    font-weight: 600;
-    text-transform: uppercase;
 }
-
 
 #skills-boxs .box {
-    margin: 2rem auto;
+    margin: 4vw auto;
     width: 6rem;
     height: 6rem;
     align-items: center;
     text-align: center;
+    /* border: 1px solid red; */
 }
 
 
@@ -255,10 +242,21 @@ body {
     background-size: cover;
 }
 
+
+
+
+
+
+
 .skills-texts {
-    margin: 0rem auto;
-    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 95vw;
     font-size: 1rem;
+    color: #fff;
+    background: #022B42;
+    box-shadow: inset 5px 5px 10px #003554,
+        inset -5px -5px 10px #003554;
 }
 
 .skills-texts h1 {
@@ -274,6 +272,9 @@ body {
     text-align: left;
     margin: 2rem 10%;
     padding: 1rem;
-    background-color: #af72c2;
-    color: #000;
+    border-radius: 9px;
+    background: #f4b057;
+    box-shadow: inset 35px 35px 38px #cd9449,
+        inset -35px -35px 38px #ffcc65;
+
 }
