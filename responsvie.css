@@ -72,21 +72,115 @@
         padding: 0 2.4rem;
     }
 
-    .header .logo h2 {
-        font-size: 1.3rem;
+    .header .logo h3 {
+        font-size: 4.3vw;
         width: 40%;
     }
 
-    #main-section{
+    #main-section {
+        gap: 25vw;
         flex-direction: column;
     }
 
-.left{
-    width: 80vw;
+    .left {
+        width: 80vw;
+    }
+
+    .left h1 {
+        font-size: 5vw;
+    }
+
+
+    .left .main-pera {
+        height: 35vw;
+        /* border: 1px solid red; */
+    }
+
+    .left .main-pera p {
+        font-size: 2.9vw;
+    }
+
+
+    .right{
+        /* border: 1px solid red; */
+        width: 45vw;
+        height: 50vw;
+
+    }
+
+    .right .main-pic{
+        width: 45vw;
+        height: 50vw;
+    }
+
+    .right .main-pic img{
+        width: 45vw;
+        height: 50vw;
+    }
+
+    #skills-boxs{
+    display: flex;
+    }
+
+#skills-boxs .box1, .box2{
+    flex-direction: column;
+    /* border: 1px solid red; */
+
 }
 
 
+.skills-heading h1{
+    color: #fff;
+width: 95vw;
+margin: 3vw auto;
+padding: 0 40%;
+align-items: center;
+/* background-color: #F39F5A; */
+}
 
 }
 
 
+@media (max-width:590px){
+
+
+    #main-section {
+        gap: 45vw;
+        flex-direction: column;
+    }
+
+
+    .left .main-pera {
+        height: 55vw;
+        /* border: 1px solid red; */
+    }
+
+    .left .main-pera p {
+        font-size: 3.5vw;
+    }
+
+
+    .skills-heading{
+        margin-right:3vw;
+
+    }
+
+
+    .right{
+        /* border: 1px solid red; */
+        width: 45vw;
+        height: 55vw;
+
+    }
+
+    .right .main-pic{
+        width: 45vw;
+        height: 55vw;
+    }
+
+    .right .main-pic img{
+        width: 45vw;
+        height: 55vw;
+    }
+
+}
