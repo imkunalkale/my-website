@@ -73,7 +73,7 @@
     }
 
     .header .logo h3 {
-        font-size: 4.3vw;
+        font-size: 7vw;
         width: 40%;
     }
 
@@ -87,35 +87,35 @@
     }
 
     .left h1 {
-        font-size: 5vw;
+        font-size: 6vw;
     }
 
 
     .left .main-pera {
-        height: 35vw;
+        height: 40vw;
         /* border: 1px solid red; */
     }
 
     .left .main-pera p {
-        font-size: 2.9vw;
+        font-size: 3.9vw;
     }
 
 
     .right{
         /* border: 1px solid red; */
-        width: 45vw;
-        height: 50vw;
+        width: 50vw;
+        height: 55vw;
 
     }
 
     .right .main-pic{
-        width: 45vw;
-        height: 50vw;
+        width: 50vw;
+        height: 55vw;
     }
 
     .right .main-pic img{
-        width: 45vw;
-        height: 50vw;
+        width: 50vw;
+        height: 55vw;
     }
 
     #skills-boxs{
